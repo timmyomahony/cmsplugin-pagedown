@@ -19,12 +19,12 @@ Simply select `Pagedown Markdown` from the `Available Plugins` dropdown when usi
 
 #####Screenshot: Example Frontend Output#####
 
----
+------
 
 ![Screenshot of example frontend output](https://github.com/pastylegs/cmsplugin-pagedown/blob/master/frontend-screenshot.png?raw=true "Screenshot of example frontend output")
 
 #####Screenshot: Plugin#####
 
----
+------
 
 ![Screenshot of a CMS placeholder using pagedown](https://github.com/pastylegs/cmsplugin-pagedown/blob/master/backend-screenshot.png?raw=true "Screenshot of a CMS placeholder using pagedown")
