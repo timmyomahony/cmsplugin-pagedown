@@ -9,7 +9,7 @@ class PagedownConfig(CMSPlugin):
     plaintext = models.TextField()
     
     def save(self, *args, **kwargs):
-        self.html = markdown.markdown(self.markdown, safe_mode=True)
+        self.html = markdown.markdown(self.markdown)
         self.plaintext = striptags(self.html)
         super(PagedownConfig, self).save(args, kwargs)
         
