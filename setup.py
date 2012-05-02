@@ -2,16 +2,17 @@ import os
 from setuptools import setup
 
 setup(
-  name = "Django-CMS Pagedown Plugin",
-  version = "0.0.1dev",
+  name = "cmsplugin-pagedown",
+  version = "0.0.1",
   author = "Timmy O'Mahony",
   author_email = "me@timmyomahony.com",
-  url = "https://github.com/timmyomahony/cmsplugin-pagedown/",
+  url = "https://github.com/timmyomahony/cmsplugin-pagedown",
   description = ("A plugin for django-cms that includes the StackOverflow pagedown editor"),
   long_description=open('README.md').read(),
   packages=['cmsplugin_pagedown'],
   install_requires=[
     "Django >= 1.2",
+    "django-pagedown"
   ],
   license='LICENSE.txt',
 )
