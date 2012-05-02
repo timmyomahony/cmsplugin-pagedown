@@ -5,12 +5,12 @@ A django-cms plugin to allow the use of [Stack Overflow&#39;s &quot;Pagedown&quo
 
 #### Requires ####
 
-- [django-pagedown](https://github.com/pastylegs/django-pagedown)
+- [django-pagedown](https://github.com/timmyomahony/django-pagedown)
 
 #### Installation ####
 
 - Make sure you have included `django.contrib.markup` in your `INSTALLED_APPS`
-- Install via pip: `pip install -e https://github.com/pastylegs/cmsplugin_pagedown.git#egg=cmsplugin-pagedown` 
+- Install via pip: `pip install -e https://github.com/timmyomahony/cmsplugin-pagedown.git#egg=cmsplugin-pagedown` 
 - Add `cmsplugin_pagedown` to your `INSTALLED_APPS`
 
 #### Usage ####
@@ -21,10 +21,10 @@ Simply select `Pagedown Markdown` from the `Available Plugins` dropdown when usi
 
 ------
 
-![Screenshot of example frontend output](https://github.com/pastylegs/cmsplugin-pagedown/blob/master/frontend-screenshot.png?raw=true "Screenshot of example frontend output")
+![Screenshot of example frontend output](https://github.com/timmyomahony/cmsplugin-pagedown/blob/master/frontend-screenshot.png?raw=true "Screenshot of example frontend output")
 
 #####Screenshot: Plugin#####
 
 ------
 
-![Screenshot of a CMS placeholder using pagedown](https://github.com/pastylegs/cmsplugin-pagedown/blob/master/backend-screenshot.png?raw=true "Screenshot of a CMS placeholder using pagedown")
+![Screenshot of a CMS placeholder using pagedown](https://github.com/timmyomahony/cmsplugin-pagedown/blob/master/backend-screenshot.png?raw=true "Screenshot of a CMS placeholder using pagedown")
