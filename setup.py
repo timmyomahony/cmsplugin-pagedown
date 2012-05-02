@@ -11,7 +11,7 @@ setup(
   long_description=open('README.md').read(),
   packages=['cmsplugin_pagedown'],
   install_requires=[
-    "Django >= 1.2",
+    "Django >= 1.3",
     "django-pagedown"
   ],
   license='LICENSE.txt',
