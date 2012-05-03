@@ -1,3 +1,5 @@
 include *.txt
 include *.md
+recursive-include cmsplugin_pagedown/templates/ *
+recursive-include cmsplugin_pagedown/migrations/ *
 recursive-include cmsplugin_pagedown/ *
