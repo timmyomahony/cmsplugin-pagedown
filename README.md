@@ -5,9 +5,8 @@ A django-cms plugin to allow the use of [Stack Overflow&#39;s &quot;Pagedown&quo
 
 #### Installation ####
 
-- Make sure you have included `django.contrib.markup` in your `INSTALLED_APPS`
 - Install via pip: `pip install -e https://github.com/timmyomahony/cmsplugin-pagedown.git#egg=cmsplugin-pagedown` or `pip install cmsplugin-pagedown`
-- Add `cmsplugin_pagedown` to your `INSTALLED_APPS`
+- Add `pagedown` and `cmsplugin_pagedown` to your `INSTALLED_APPS`
 
 #### Usage ####
 
