@@ -9,7 +9,7 @@ setup(
   url = "https://github.com/timmyomahony/cmsplugin-pagedown",
   description = ("A plugin for django-cms that includes the StackOverflow pagedown editor"),
   long_description=open('README.md').read(),
-  packages=['cmsplugin_pagedown'],
+  packages=['cmsplugin_pagedown', 'cmsplugin_pagedown.migrations'],
   include_package_data=True,
   install_requires=[
     "Django >= 1.3",
