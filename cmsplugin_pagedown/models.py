@@ -9,6 +9,9 @@ class PagedownConfig(CMSPlugin):
     html = models.TextField()
     plaintext = models.TextField()
 
+    css_id = models.CharField(max_length=50, blank=True, help_text="Add an optional CSS ID to the rendered outputs wrapping element")
+    css_classes = models.CharField(max_length=50, blank=True, help_text="Add CSS classes to the rendered outputs wrapper element")
+
     def save(self, *args, **kwargs):
         self.html = markdown.markdown(self.markdown)
         self.plaintext = striptags(self.html)

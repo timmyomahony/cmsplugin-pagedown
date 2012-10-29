@@ -1,6 +1,6 @@
 {% comment %}
-	text.markdown - will output the original markdown 
-	text.plaintext - will output the markdown as plaintext
-	text.html - will output markdown as html 
+	instance.markdown - will output the original markdown 
+	instance.plaintext - will output the markdown as plaintext
+	instance.html - will output markdown as html 
 {% endcomment %}
-<div class="pagedown-content">{{ text.html|safe }}</div>
+<div {% if instance.css_id %}id="{{ instance.css_id }}"{% endif %} class="pagedown-content {{ instance.css_classes }}">{{ instance.html|safe }}</div>

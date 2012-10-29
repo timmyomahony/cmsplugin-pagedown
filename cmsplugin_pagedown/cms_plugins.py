@@ -11,10 +11,14 @@ class PagedownPlugin(CMSPluginBase):
     name = _("Pagedown Markdown")
     render_template = "cmsplugin_pagedown/markdown.html"
     admin_preview = False
+    fieldsets = [
+        ("", {'fields': ('markdown',)}),
+        ("CSS", {'fields': ('css_classes', 'css_id', )}),
+    ]
 
     def render(self, context, instance, placeholder):
         context.update({
-            'text': instance,
+            'instance': instance,
         })
         return context
 
